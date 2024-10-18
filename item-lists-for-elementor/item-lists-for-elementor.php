@@ -4,10 +4,10 @@
  * Description: It is a perfect solution for formatting bullets in a creative and easy-to-read way. This plugin is bundled with precisely designed 5 of the most useful lists to showcase your website with list styling.
  * Plugin URI: https://www.techeshta.com/product/item-lists-for-elementor/
  * Author: Techeshta
- * Version: 1.3.6
+ * Version: 1.3.7
  * Author URI: https://www.techeshta.com
- * Elementor tested up to: 3.24.2
- * Elementor Pro tested up to: 3.24.1
+ * Elementor tested up to: 3.24.3
+ * Elementor Pro tested up to: 3.24.2
  *
  * Text Domain: item-lists-for-elementor
  */

@@ -4,7 +4,7 @@ Tags: Item Lists for Elementor, Elementor, Listing Item Lists, Item Lists, Eleme
 Requires at least: 4.4
 Tested up to: 6.6.2
 Requires PHP: 8.0
-Stable tag: 1.3.6
+Stable tag: 1.3.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,10 @@ Please reach out via the official [support forum](https://wordpress.org/support/
 
 
 == Changelog ==
+
+= 1.3.7 =
+Release Date: October 18th, 2024
+* Fixed: Resolved an issue custom SVG connection error.
 
 = 1.3.6 =
 Release Date: September 16th, 2024

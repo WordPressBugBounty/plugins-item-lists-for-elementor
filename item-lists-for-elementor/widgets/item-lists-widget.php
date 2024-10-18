@@ -838,7 +838,11 @@ class Item_Lists_Elementor_Widget extends Widget_Base {
                 ],
                 'default'       => [ 'size'  => 25 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .ile-icon' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .ile-icon' => 'font-size: {{SIZE}}{{UNIT}};', 
+                    '{{WRAPPER}} .ile-shape-bullet-style svg:not(.ile-icon-shape),
+                     {{WRAPPER}} .ile-material-bullet-style svg,
+                     {{WRAPPER}} .ile-timeline-bullet-style .ile-icon-box svg,
+                     {{WRAPPER}} .ile-alternate-timeline-bullet-style .ile-icon-box svg' => 'width: {{SIZE}}{{UNIT}};'
                 ],
             ]
         );
@@ -852,7 +856,7 @@ class Item_Lists_Elementor_Widget extends Widget_Base {
                     'item_lists_style' => 'shape-bullet-style',
                 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .ile-icon'    => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .ile-icon path'    => 'fill: {{VALUE}};',
                 ],
             ]
         );
@@ -872,7 +876,7 @@ class Item_Lists_Elementor_Widget extends Widget_Base {
                     'item_lists_style'  => 'material-bullet-style',
                 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .ile-icon'    => 'width: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .ile-icon-box'    => 'width: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -906,7 +910,7 @@ class Item_Lists_Elementor_Widget extends Widget_Base {
                     'item_lists_style' => 'shape-bullet-style',
                 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .ile-icon-box svg path'    => 'fill: {{VALUE}};',
+                    '{{WRAPPER}} .ile-icon-box .ile-icon-shape path'    => 'fill: {{VALUE}};',
                 ],
             ]
         );

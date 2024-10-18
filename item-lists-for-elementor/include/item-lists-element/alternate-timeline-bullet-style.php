@@ -1,4 +1,5 @@
 <!-- Start Alternate Timeline Bullet Style -->
+<?php use Elementor\Icons_Manager; ?>
 <div class="ile-alternate-timeline-bullet-style">
     <?php $count = 0; 
     foreach ($settings['timeline_item_lists'] as $items => $item) {
@@ -15,9 +16,9 @@
             <div class="ile-timeline-vertical"></div>
             <div class="ile-timeline-horizontal"></div>
             <?php if($item['timeline_list_items_display_icon'] === 'icon') { ?>
-            <div class="ile-icon-box" style="background-color:<?php echo esc_attr($icon_bg_color); ?>">
-                <i class="ile-icon <?php echo esc_attr($icon) ?>" style="color:<?php echo esc_attr($icon_color); ?>;"></i>
-            </div>
+                <div class="ile-icon-box" style="background-color:<?php echo esc_attr( $icon_bg_color ); ?>">
+                    <?php Icons_Manager::render_icon($item['timeline_list_items_icon'], [ 'aria-hidden' => 'true', 'class' => 'ile-icon', 'fill' => $icon_color ]); ?>
+                </div>
             <?php } else if($item['timeline_list_items_display_icon'] === 'image') { ?>
                 <img src="<?php echo esc_url($item['timeline_list_items_image']['url']); ?>" class="ile-image" /><?php
             } ?>

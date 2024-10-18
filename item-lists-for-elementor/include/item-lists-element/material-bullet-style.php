@@ -1,4 +1,5 @@
 <!-- Start Material Bullet Style -->
+ <?php use Elementor\Icons_Manager; ?>
 <div class="ile-material-bullet-style" style="direction:<?php echo esc_attr($settings['list_items_box_column_direction']); ?>;">
     <div class="ile-container-holder">
     <?php foreach ($settings['material_item_lists'] as $items => $item) {
@@ -12,9 +13,10 @@
         $icon_bg_color = $item['material_icon_bg_color']; ?>
         <div class="ile-container-row"><?php
             if($item['material_list_items_display_icon'] === 'icon') { ?>
-                <i class="ile-icon <?php echo esc_attr($icon); ?>" style="color:<?php echo esc_attr($icon_color); ?>; background-color:<?php echo esc_attr($icon_bg_color); ?>"></i>
-            <?php } 
-            else if($item['material_list_items_display_icon'] === 'image') { ?>
+                <div class="ile-icon-box" style="background-color:<?php echo esc_attr( $icon_bg_color ); ?>;">
+                        <?php Icons_Manager::render_icon($item['material_list_items_icon'], [ 'aria-hidden' => 'true', 'class' => 'ile-icon', 'fill' => $icon_color ]); ?>
+                    </div>
+            <?php } else if ($item['material_list_items_display_icon'] === 'image') { ?>
                 <img src="<?php echo esc_url($item['material_list_items_image']['url']); ?>" class="ile-image" />
             <?php } ?>
             <div class="ile-content-box" style="background-color:<?php echo esc_attr($content_bg_color); ?>;">

@@ -17,7 +17,7 @@ p.ile-content {
 .ile-material-bullet-style .ile-container-row:last-child {
     margin-bottom: 0px !important;
 }
-.ile-material-bullet-style .ile-icon {
+.ile-material-bullet-style .ile-icon-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,9 @@ p.ile-content {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+}
+.ile-material-bullet-style svg {
+    height: auto;
 }
 /* End Material Bullet Style CSS */
 
@@ -70,6 +73,16 @@ p.ile-content {
 .ile-shape-bullet-style .ile-container-holder:last-child .ile-content-box {
     margin-bottom: 0px !important;
 }
+.ile-shape-bullet-style .ile-icon-shape {
+    width: 100% !important;
+}
+.ile-shape-bullet-style svg:not(.ile-icon-shape) {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 /* End Shape Bullet Style CSS */
 
 /* Start Timeline Bullet Style CSS */
@@ -102,6 +115,9 @@ p.ile-content {
 }
 .ile-timeline-bullet-style .ile-container-holder:last-child {
     padding-bottom: 0px !important;
+}
+.ile-timeline-bullet-style .ile-icon-box svg {
+    height: auto;
 }
 /* End Timeline Bullet Style CSS */
 
