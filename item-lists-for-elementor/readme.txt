@@ -2,9 +2,9 @@
 Contributors: techeshta, alkesh7, vastarpara
 Tags: Item Lists for Elementor, Elementor, Listing Item Lists, Item Lists, Elementor Addon, List Elements Module
 Requires at least: 4.4
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 8.0
-Stable tag: 1.3.9
+Stable tag: 1.3.10
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,8 +21,8 @@ This pack is truly remarkable and unique in its design and usability. So, stop w
 == Where is the Listing Item Lists for Elementor plugin useful? ==
 
 Item Lists for Elementor plugin useful for all WordPress websites. Below is one small list for which purposes you can start using the Item List plugin.
- 
-* Perfect for Creating Awesome List 
+
+* Perfect for Creating Awesome List
 * Multiple Bullet Lists in One Page
 * Display Your Company History
 * Display a List of Quotes
@@ -69,7 +69,7 @@ Pro version overcomes your limitations with a lite version of Card Elements.
 * Customize Whatever Way You Want
 * CodeCanyon Quality Code Standards
 * More Card Styles (Coming Soon)
-	
+
 **[Buy Item Lists Pro for Elementor on CodeCanyon](https://1.envato.market/ILPEle)**
 
 ### Technical Support
@@ -90,9 +90,9 @@ We're active for any support issues and feature suggestions. So, I hope you will
 1. Go to Plugins >**Add New**
 2. Search for **Item Lists for Elementor**
 3. Click on **Install Now** button
-4. Click on **Activate Now** After Installed in the Backend 
+4. Click on **Activate Now** After Installed in the Backend
 
-**From WordPress.org** 
+**From WordPress.org**
 
 1. Download **[Item Lists for Elementor](https://downloads.wordpress.org/plugin/item-lists-for-elementor.zip)**
 2. Upload the **'item-lists-for-elementor'** folder to the /wp-content/plugins/ directory
@@ -107,7 +107,7 @@ Yes, you can. Item Lists for Elementor plugin gives you the ability to add multi
 =  Can I Change Color or Customize the List Style as Per my Wish? =
 Yes, you can customize it. We provided all possible options in the Backend to update it from default list elements.
 
-= Does Item Lists for Elementor give me Total Control of my List Styles? = 
+= Does Item Lists for Elementor give me Total Control of my List Styles? =
 Yes, Item Lists for Elementor gives you total control of your list styles. You need to set up everything correctly and play with it. You may get more than your expectations.
 
 = Is  Item Lists for Elementor Plugin Free to Use? =
@@ -127,6 +127,10 @@ Please reach out via the official [support forum](https://wordpress.org/support/
 
 
 == Changelog ==
+
+= 1.3.10 =
+Release Date: December 19th, 2025
+* Updated: Latest WordPress 6.9 compatibility Check
 
 = 1.3.9 =
 Release Date: April 22nd, 2025
