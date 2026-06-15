@@ -1,16 +1,18 @@
 <?php
 /*
  * Plugin Name: Item Lists for Elementor
- * Description: It is a perfect solution for formatting bullets in a creative and easy-to-read way. This plugin is bundled with precisely designed 5 of the most useful lists to showcase your website with list styling.
+ * Description: Item Lists for Elementor: Best Elementor Bullet List & List Widget Plugin for WordPress.
  * Plugin URI: https://www.techeshta.com/product/item-lists-for-elementor/
  * Author: Techeshta
- * Version: 1.3.10
+ * Version: 1.4
  * Author URI: https://www.techeshta.com
- * Elementor tested up to: 3.28.3
- * Elementor Pro tested up to: 3.28.3
- *
+ * Elementor tested up to: 4.1.3
+ * Elementor Pro tested up to: 4.1.1
  * Text Domain: item-lists-for-elementor
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
+
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
@@ -121,9 +123,19 @@ class item_lists_elementor {
 	 * Add reviews metadata on plugin activation
 	 */
 	public function item_lists_plugin_activation() {
-		
+
 		$notices = get_option('item_lists_reviews', array());
-		$notices[] = '<p>Hi, you are now using <strong>Item Lists for Elementor</strong> plugin. I would really appreciate it if you could give me the five star to our plugin. </p><p><a href="https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/?filter=5#new-post" target="_blank" class="rating-link"><strong> Okay, you deserve it </strong></a></p>';
+
+		$plugin_name = esc_html__('Item Lists for Elementor', 'item-lists-for-elementor');
+		$rating_url = esc_url('https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/?filter=5#new-post');
+
+		/* translators: %1$s: plugin name (bold) */
+		$message = sprintf( __('Hi, you are now using %1$s plugin. I would really appreciate it if you could give me the five star to our plugin.', 'item-lists-for-elementor'), '<strong>' . $plugin_name . '</strong>' );
+		$rating_text = esc_html__('Okay, you deserve it', 'item-lists-for-elementor');
+
+		$notice_html = '<p>' . $message . '</p>' . '<p><a href="' . $rating_url . '" target="_blank" class="rating-link"><strong>' . $rating_text . '</strong></a></p>';
+
+		$notices[] = wp_kses_post( $notice_html );
 		update_option('item_lists_reviews', $notices);
 
 		// Deactivate Item Lists for elementor (Pro) plugin than activate Item Lists for elementor (free) for elementor plugin

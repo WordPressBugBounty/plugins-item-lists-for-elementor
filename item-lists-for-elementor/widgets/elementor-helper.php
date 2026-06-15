@@ -1,6 +1,10 @@
 <?php
 namespace Elementor;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 // Create Category into Elementor.
 function init_item_lists_category() {
     Plugin::instance()->elements_manager->add_category(

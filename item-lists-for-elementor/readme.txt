@@ -1,10 +1,10 @@
 === Item Lists for Elementor ===
 Contributors: techeshta, alkesh7, vastarpara
-Tags: Item Lists for Elementor, Elementor, Listing Item Lists, Item Lists, Elementor Addon, List Elements Module
-Requires at least: 4.4
-Tested up to: 6.9
-Requires PHP: 8.0
-Stable tag: 1.3.10
+Tags: elementor, elementor addon, item lists, elementor widget, list plugin
+Requires at least: 5.0
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,30 +12,30 @@ Showcase useful elements with list style for elementor page builder.
 
 == Description ==
 
-Item Lists for Elementor plugin is the best bullet lists pack for WordPress. It is a perfect solution for formatting bullets in a creative and easy-to-read way. 
+Item Lists for Elementor plugin is the best Elementor Bullet List pack for WordPress. It is a perfect solution for formatting bullets in a creative and easy-to-read way using this powerful Elementor List Widget.
 
-This plugin is bundled with precisely designed 5 of the most useful lists to showcase/decorate your website with list styling. We will keep adding more in future versions.
+This WordPress List Plugin is bundled with precisely designed 5 of the most useful Item Lists for Elementor to showcase/decorate your website with list styling. We will keep adding more in future versions.
 
-This pack is truly remarkable and unique in its design and usability. So, stop wasting your time searching for widgets. You can find everything you need in one place.
+This Elementor List Widget pack is truly remarkable and unique in its design and usability. So, stop wasting your time searching for widgets. You can find everything you need in one place with Item Lists for Elementor..
 
 == Where is the Listing Item Lists for Elementor plugin useful? ==
 
 Item Lists for Elementor plugin useful for all WordPress websites. Below is one small list for which purposes you can start using the Item List plugin.
 
-* Perfect for Creating Awesome List
+* Perfect for Creating Awesome Elementor Bullet List
 * Multiple Bullet Lists in One Page
 * Display Your Company History
 * Display a List of Quotes
-* Easily Change the Look of Your List Elements
+* Easily Change the Look of Your Elementor List Widget Elements
 * Add a Relevant Image to Your Listing Items
 * Decorate Your Listing Items Differently
-* Create a Attractive List in Minutes
+* Create a Attractive Item Lists for Elementor in Minutes
 * Present Your Listing Items in Unique Ways
 * Etc.
 
 ### Ready-made Listing Styles
 
-We have designed the five most useful styles to showcase/decorate your website with list styling. It allows you to climb the top of your design capabilities.
+We have designed the five most useful Elementor Bullet List styles to showcase/decorate your website with list styling. This Item Lists for Elementor plugin allows you to climb the top of your design capabilities.
 
 **1. [Material Bullets](https://elementor.techeshta.com/item-lists/material-bullets/?utm_medium=wp.org&utm_source=wordpressorg&utm_campaign=readme&utm_content=itemlistsforelementor)**
 
@@ -63,12 +63,12 @@ Gradient-ordered bullet points decorate your website in unique ways.
 
 Pro version overcomes your limitations with a lite version of Card Elements.
 
-* 5 Unique Beautiful List Items
-* Perfect for Creating an Awesome List
-* Beautifully Designed Styles
+* 5 Unique Beautiful Item Lists for Elementor
+* Perfect for Creating an Awesome Elementor Bullet List
+* Beautifully Designed Elementor List Widget Styles
 * Customize Whatever Way You Want
 * CodeCanyon Quality Code Standards
-* More Card Styles (Coming Soon)
+* More Item Lists for Elementor Styles Coming Soon!
 
 **[Buy Item Lists Pro for Elementor on CodeCanyon](https://1.envato.market/ILPEle)**
 
@@ -116,7 +116,6 @@ Yes!  Item Lists for Elementor Plugin is free.
 = Where Can I Ask for Help? =
 Please reach out via the official [support forum](https://wordpress.org/support/plugin/item-lists-for-elementor/) on WordPress.org.
 
-
 == Screenshots ==
 
 1. Material Bullets - Single Color & Multiple Color
@@ -127,6 +126,19 @@ Please reach out via the official [support forum](https://wordpress.org/support/
 
 
 == Changelog ==
+
+= 1.4 =
+Release Date: June 15th, 2026
+* Version: Bumped plugin to 1.4
+* Updated: Tested up to WordPress 7.0
+* Updated: Elementor compatibility updated to 4.1.3 (free) and Elementor Pro 4.1.1
+* Security: Fixed multiple security issues including output escaping, color validation, direction/alignment whitelisting, SVG sanitization, and CSS property injection prevention
+* Fix: Added direct file access protection to helper files
+
+= 1.3.11 =
+Release Date: May 4th, 2026
+* Security: Improved overall plugin security
+* Updated: Latest Elementor 4.0.5 compatibility Check
 
 = 1.3.10 =
 Release Date: December 19th, 2025

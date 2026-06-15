@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Card Elements for Elementor\n"
-"POT-Creation-Date: 2024-04-02 15:11+0530\n"
+"POT-Creation-Date: 2026-06-15 15:16+0530\n"
 "PO-Revision-Date: 2017-03-11 16:09+0530\n"
 "Last-Translator: \n"
 "Language-Team: Techeshta <info@techeshta.com>\n"
@@ -11,37 +11,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c;"
-"_nx:1,2c;esc_attr_e;esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;"
-"esc_html_x:1,2c;_n_noop:1,2\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-KeywordsList: "
+"_;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2c;esc_attr_e;esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: item-lists-for-elementor.php:103 item-lists-for-elementor.php:111
+#: item-lists-for-elementor.php:107 item-lists-for-elementor.php:115 item-lists-for-elementor.php:129
 msgid "Item Lists for Elementor"
 msgstr ""
 
-#: item-lists-for-elementor.php:103
-msgid ""
-" plugin is not working because you need to activate the Elementor plugin."
+#: item-lists-for-elementor.php:107
+msgid " plugin is not working because you need to activate the Elementor plugin."
 msgstr ""
 
-#: item-lists-for-elementor.php:104
+#: item-lists-for-elementor.php:108
 msgid "Activate Elementor Now"
 msgstr ""
 
-#: item-lists-for-elementor.php:111
-msgid ""
-" plugin is not working because you need to install the Elementor plugin."
+#: item-lists-for-elementor.php:115
+msgid " plugin is not working because you need to install the Elementor plugin."
 msgstr ""
 
-#: item-lists-for-elementor.php:112
+#: item-lists-for-elementor.php:116
 msgid "Install Elementor Now"
 msgstr ""
 
-#: widgets/elementor-helper.php:8
+#: item-lists-for-elementor.php:133
+#, php-format
+msgid "Hi, you are now using %1$s plugin. I would really appreciate it if you could give me the five star to our plugin."
+msgstr ""
+
+#: item-lists-for-elementor.php:134
+msgid "Okay, you deserve it"
+msgstr ""
+
+#: widgets/elementor-helper.php:12
 msgid "Item Lists Element"
 msgstr ""
 
@@ -77,64 +83,55 @@ msgstr ""
 msgid "Gradient Ordered Bullets"
 msgstr ""
 
-#: widgets/item-lists-widget.php:69 widgets/item-lists-widget.php:241
-#: widgets/item-lists-widget.php:351 widgets/item-lists-widget.php:495
+#: widgets/item-lists-widget.php:69 widgets/item-lists-widget.php:241 widgets/item-lists-widget.php:351
+#: widgets/item-lists-widget.php:495
 msgid "Items"
 msgstr ""
 
-#: widgets/item-lists-widget.php:81 widgets/item-lists-widget.php:83
-#: widgets/item-lists-widget.php:253 widgets/item-lists-widget.php:255
-#: widgets/item-lists-widget.php:363 widgets/item-lists-widget.php:365
-#: widgets/item-lists-widget.php:507 widgets/item-lists-widget.php:509
-#: widgets/item-lists-widget.php:1059
+#: widgets/item-lists-widget.php:81 widgets/item-lists-widget.php:83 widgets/item-lists-widget.php:253
+#: widgets/item-lists-widget.php:255 widgets/item-lists-widget.php:363 widgets/item-lists-widget.php:365
+#: widgets/item-lists-widget.php:507 widgets/item-lists-widget.php:509 widgets/item-lists-widget.php:1063
 msgid "Title"
 msgstr ""
 
-#: widgets/item-lists-widget.php:90 widgets/item-lists-widget.php:262
-#: widgets/item-lists-widget.php:372 widgets/item-lists-widget.php:516
-#: widgets/item-lists-widget.php:1108
+#: widgets/item-lists-widget.php:90 widgets/item-lists-widget.php:262 widgets/item-lists-widget.php:372
+#: widgets/item-lists-widget.php:516 widgets/item-lists-widget.php:1112
 msgid "Content"
 msgstr ""
 
-#: widgets/item-lists-widget.php:92 widgets/item-lists-widget.php:264
-#: widgets/item-lists-widget.php:374 widgets/item-lists-widget.php:518
+#: widgets/item-lists-widget.php:92 widgets/item-lists-widget.php:264 widgets/item-lists-widget.php:374
+#: widgets/item-lists-widget.php:518
 msgid ""
-"Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod "
-"tempor incididunt ut abore et dolore magna"
+"Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna"
 msgstr ""
 
-#: widgets/item-lists-widget.php:99 widgets/item-lists-widget.php:107
-#: widgets/item-lists-widget.php:271 widgets/item-lists-widget.php:279
-#: widgets/item-lists-widget.php:381 widgets/item-lists-widget.php:389
+#: widgets/item-lists-widget.php:99 widgets/item-lists-widget.php:107 widgets/item-lists-widget.php:271
+#: widgets/item-lists-widget.php:279 widgets/item-lists-widget.php:381 widgets/item-lists-widget.php:389
 #: widgets/item-lists-widget.php:821
 msgid "Icon"
 msgstr ""
 
-#: widgets/item-lists-widget.php:103 widgets/item-lists-widget.php:275
-#: widgets/item-lists-widget.php:385
+#: widgets/item-lists-widget.php:103 widgets/item-lists-widget.php:275 widgets/item-lists-widget.php:385
 msgid "None"
 msgstr ""
 
-#: widgets/item-lists-widget.php:111 widgets/item-lists-widget.php:393
-#: widgets/item-lists-widget.php:1009
+#: widgets/item-lists-widget.php:111 widgets/item-lists-widget.php:393 widgets/item-lists-widget.php:1013
 msgid "Image"
 msgstr ""
 
-#: widgets/item-lists-widget.php:148 widgets/item-lists-widget.php:430
-#: widgets/item-lists-widget.php:848
+#: widgets/item-lists-widget.php:148 widgets/item-lists-widget.php:430 widgets/item-lists-widget.php:852
 msgid "Icon Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:159 widgets/item-lists-widget.php:441
-#: widgets/item-lists-widget.php:902
+#: widgets/item-lists-widget.php:159 widgets/item-lists-widget.php:441 widgets/item-lists-widget.php:906
 msgid "Icon Background Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:170 widgets/item-lists-widget.php:1066
+#: widgets/item-lists-widget.php:170 widgets/item-lists-widget.php:1070
 msgid "Title Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:178 widgets/item-lists-widget.php:1115
+#: widgets/item-lists-widget.php:178 widgets/item-lists-widget.php:1119
 msgid "Content Color"
 msgstr ""
 
@@ -142,8 +139,8 @@ msgstr ""
 msgid "Content Background Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:195 widgets/item-lists-widget.php:317
-#: widgets/item-lists-widget.php:453 widgets/item-lists-widget.php:525
+#: widgets/item-lists-widget.php:195 widgets/item-lists-widget.php:317 widgets/item-lists-widget.php:453
+#: widgets/item-lists-widget.php:525
 msgid "List Items"
 msgstr ""
 
@@ -247,7 +244,7 @@ msgstr ""
 msgid "Botttom"
 msgstr ""
 
-#: widgets/item-lists-widget.php:806 widgets/item-lists-widget.php:1035
+#: widgets/item-lists-widget.php:806 widgets/item-lists-widget.php:1039
 msgid "Radius"
 msgstr ""
 
@@ -255,38 +252,38 @@ msgstr ""
 msgid "Icon Size"
 msgstr ""
 
-#: widgets/item-lists-widget.php:862
+#: widgets/item-lists-widget.php:866
 msgid "Icon Box Width"
 msgstr ""
 
-#: widgets/item-lists-widget.php:882
+#: widgets/item-lists-widget.php:886
 msgid "Icon Box Size"
 msgstr ""
 
-#: widgets/item-lists-widget.php:916
+#: widgets/item-lists-widget.php:920
 msgid "Icon Border Width"
 msgstr ""
 
-#: widgets/item-lists-widget.php:936
+#: widgets/item-lists-widget.php:940
 msgid "Icon Border Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:950
+#: widgets/item-lists-widget.php:954
 msgid "Line Width"
 msgstr ""
 
-#: widgets/item-lists-widget.php:970
+#: widgets/item-lists-widget.php:974
 msgid "Line Color"
 msgstr ""
 
-#: widgets/item-lists-widget.php:984
+#: widgets/item-lists-widget.php:988
 msgid "Icon Box Radius"
 msgstr ""
 
-#: widgets/item-lists-widget.php:1019
+#: widgets/item-lists-widget.php:1023
 msgid "Image Width"
 msgstr ""
 
-#: widgets/item-lists-widget.php:1087
+#: widgets/item-lists-widget.php:1091
 msgid "Title Spacing"
 msgstr ""

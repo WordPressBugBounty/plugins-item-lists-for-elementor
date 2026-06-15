@@ -3,7 +3,7 @@ namespace Elementor;
 
 // If this file is called directly, abort.
 if (!defined('ABSPATH')) {
-    exit;   
+    exit;
 }
 
 // Class Item Lists
