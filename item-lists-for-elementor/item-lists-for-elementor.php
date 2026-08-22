@@ -4,8 +4,10 @@
  * Description: Item Lists for Elementor: Best Elementor Bullet List & List Widget Plugin for WordPress.
  * Plugin URI: https://www.techeshta.com/product/item-lists-for-elementor/
  * Author: Techeshta
- * Version: 1.4
+ * Version: 1.5
  * Author URI: https://www.techeshta.com
+ * Requires at least: 5.0
+ * Requires PHP: 7.4
  * Elementor tested up to: 4.1.3
  * Elementor Pro tested up to: 4.1.1
  * Text Domain: item-lists-for-elementor
@@ -79,9 +81,6 @@ class item_lists_elementor {
 	 * Check for Elementor
 	 */
 	public function item_lists_plugin_load() {
-		// Load plugin textdomain
-		load_plugin_textdomain('item-lists-for-elementor');
-
 		if (!did_action('elementor/loaded')) {
 			add_action('admin_notices', array($this, 'item_lists_widget_fail_load'));
 			return;
@@ -127,7 +126,7 @@ class item_lists_elementor {
 		$notices = get_option('item_lists_reviews', array());
 
 		$plugin_name = esc_html__('Item Lists for Elementor', 'item-lists-for-elementor');
-		$rating_url = esc_url('https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/?filter=5#new-post');
+		$rating_url = esc_url('https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/');
 
 		/* translators: %1$s: plugin name (bold) */
 		$message = sprintf( __('Hi, you are now using %1$s plugin. I would really appreciate it if you could give me the five star to our plugin.', 'item-lists-for-elementor'), '<strong>' . $plugin_name . '</strong>' );

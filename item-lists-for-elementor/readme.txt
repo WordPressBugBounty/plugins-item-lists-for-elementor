@@ -2,9 +2,9 @@
 Contributors: techeshta, alkesh7, vastarpara
 Tags: elementor, elementor addon, item lists, elementor widget, list plugin
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,7 +80,7 @@ We're active for any support issues and feature suggestions. So, I hope you will
 
 ### Like Item Lists for Elementor Plugin?
 
-- Don't forget to rate us on [WordPress](https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/?rate=5#new-post) :)
+- Don't forget to rate us on [WordPress](https://wordpress.org/support/plugin/item-lists-for-elementor/reviews/) :)
 
 
 == Installation ==
@@ -126,6 +126,12 @@ Please reach out via the official [support forum](https://wordpress.org/support/
 
 
 == Changelog ==
+
+= 1.5 =
+Release Date: August 22nd, 2026
+* Updated: Tested up to WordPress 7.1 compatibility Check
+* Removed: Explicit text domain loading for WordPress 5.8 and later.
+* Fixed: Resolved warnings by prefixing template-local variables.
 
 = 1.4 =
 Release Date: June 15th, 2026
