@@ -4,7 +4,7 @@ Tags: elementor, elementor addon, item lists, elementor widget, list plugin
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.5
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -126,6 +126,14 @@ Please reach out via the official [support forum](https://wordpress.org/support/
 
 
 == Changelog ==
+
+= 2.0 =
+Release Date: September 23rd, 2026
+* Security: Manual security review of every list-style render template - confirmed title, content, color, and icon output is consistently escaped/sanitized.
+* Fixed: Vertical alignment option on the Gradient Ordered Bullets number box was not applying correctly; corrected the validation so all three alignment choices work again.
+* Fixed: Resolved all WordPress Coding Standards issues across the plugin.
+* Updated: Latest WordPress 7.1.2 compatibility Check
+* Updated: Latest Elementor 4.2.4 compatibility Check
 
 = 1.5 =
 Release Date: August 22nd, 2026
